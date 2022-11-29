@@ -1,0 +1,104 @@
+.container {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin-left: 300px;
+  margin-right: 300px;
+  font-family: Andale Mono, monospace;
+  font-weight: 800;
+  min-width: 500px;
+}
+
+.main_button {
+  background-color: rgba(0, 0, 0, 0);
+  color: black;
+  border: 3px solid #4CAF50;
+  transition-duration: 0.2s;
+  border-radius: 10px;
+  cursor: pointer;
+  padding: 3px 6px;
+}
+
+.main_button:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.table_button {
+  background-color: rgba(0, 0, 0, 0);
+  color: black;
+  border: 3px solid #4CAF50;
+  transition-duration: 0.1s;
+  border-radius: 10px;
+  margin-right: 5px;
+}
+
+.table_button:hover {
+  color: white;
+  background-color: #4CAF50;
+}
+
+
+::placeholder{
+  color: lightgray;
+}
+
+input{
+  border: none;
+  outline: none;
+  border-bottom: 2px solid lightgrey;
+  margin-right: 10px;
+}
+
+
+
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.pagination {
+  padding-left: -50px;
+}
+
+.pagination > li {
+  display: inline-block;
+  list-style: none;
+}
+.pagination > li > a,
+.pagination > li > span {
+  position: relative;
+  float: left;
+  padding: 3px 10px;
+  border: 3px solid #4CAF50;
+  border-radius: 10px;
+  text-decoration: none;
+  color: black;
+  background-color: #fff;
+  margin-left: 5px;
+  cursor: pointer;
+  transition-duration: 0.2s;
+}
+
+.pagination > li.disabled > a {
+  color: black;
+  background-color: #fff;
+  border: 3px solid gray;
+}
+
+.pagination > li.disabled:hover > a {
+  color: black;
+  background-color: #fff;
+  border: 3px solid gray;
+}
+
+.pagination > li.active > a {
+  color: #fff;
+  background-color: #4CAF50;
+  border: 3px solid white;
+}
+
+.pagination > li > a:hover {
+  background-color:  #4CAF50;
+  color: white;
+}
